@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HUNGER FIGHTERS</string>
+
+    <string name="address_prompt">Choose a Location</string>
+
+    <string-array name="address_dropdown">
+        <item>Tap here!</item>
+        <item>Devkar panand</item>
+        <item>Girgaon</item>
+        <item>Nagala park</item>
+        <item>Kasba Bawda</item>
+        <item>Kalamba</item>
+        <item>Pachgaon</item>
+        <item>Pratibha Nagar</item>
+        <item>Rajarampuri</item>
+        <item>Ramanmala</item>
+        <item>RK Nagar</item>
+        <item>Shahupuri</item>
+        <item>Subhash Nagar</item>
+        <item>Takala</item>
+        <item>Tarabai Park</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

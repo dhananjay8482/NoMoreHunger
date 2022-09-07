@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "706092509004",
+    "project_id": "no-more-hunger-4a8b3",
+    "storage_bucket": "no-more-hunger-4a8b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706092509004:android:e987c17dcc9117d7b391e9",
+        "android_client_info": {
+          "package_name": "com.example.nomorehunger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706092509004-k0048fuonmkecfao5v450c88pcgdssv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbS1t9H4ClwWuXMpquWJfyP6WyfDDfrPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706092509004-k0048fuonmkecfao5v450c88pcgdssv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".modules.VolunteerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/purple_700"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volunteer LIST"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        >
+
+
+
+
+        <Button
+            android:id="@+id/volunteer_btn_add"
+            android:text="Add Here!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/ngo_list_btn_delete"-->
+        <!--            android:text="Delete"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginHorizontal="5dp"-->
+        <!--            />-->
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_volunteer_list"
+        tools:listitem="@layout/volunteer_list_layout"
+        android:visibility="visible"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/volunteer_list_linear_layout"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fill Details"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:hint="Organization Name">-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:id="@+id/ngo_list_input_name"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:inputType="text" />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/volunteer_tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text=" Name : Dhananjay Sonar"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_marginTop="0dp"
+            android:id="@+id/volunteer_tv_phone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text=" Contact : 8482964083"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Availability : "
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/ngo_list_input_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter Your Time Slot here!"
+            android:inputType="textMultiLine" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/volunteer_btn_save"
+            android:text="ADD TO LIST"
+            />
+
+        <Button
+            android:id="@+id/volunteer_btn_delete"
+            android:text="Delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/volunteer_btn_back"
+            android:text="BACK TO LIST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
